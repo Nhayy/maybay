@@ -124,7 +124,7 @@ app.get("/api/history", (req, res) => {
   const sids = Object.keys(logged_results)
     .map(Number)
     .sort((a, b) => b - a)
-    .slice(0, 10);
+    .slice(0, 200);
 
   const result = sids.map((sid) => logged_results[sid]);
   res.json(result);
