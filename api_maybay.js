@@ -34,7 +34,7 @@ function connectWebSocket() {
     ws.send(JSON.stringify([
       1, "MiniGame", "", "", {
         agentId: "1",
-        accessToken: "13-550cd822b134e7e07731801116d7c1fa",
+        accessToken: "13-0442a9806b0362b897defbae3454232c",
         reconnect: false
       }
     ]));
